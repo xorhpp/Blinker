@@ -44,6 +44,5 @@ This project is a **DirectX 11 External Overlay** using **Dear ImGui**, capable 
 - Press `F3` — Exit application
 
 
-If you are anoyed by the blinking, you can uncheck the checkbox in the menu.
----
 ![Preview](images/image1.png)
+If you are anoyed by the blinking, you can uncheck the checkbox in the menu.
