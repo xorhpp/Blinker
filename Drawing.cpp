@@ -24,7 +24,7 @@ void Drawing::DrawOverlay()
 	ImGui::SetNextWindowSize({ screen_width, screen_height }, ImGuiCond_Once);
 	ImGui::SetNextWindowBgAlpha(1.0f);
 
-	ImGui::Begin(lpWindowName2, &bDraw, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoMove);
+	ImGui::Begin(lpWindowName2, &bDraw, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoNav | ImGuiWindowFlags_NoInputs | ImGuiWindowFlags_NoDecoration);
 
 	ImGui::End();
 }
