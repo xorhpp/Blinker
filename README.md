@@ -45,5 +45,4 @@ This project is a **DirectX 11 External Overlay** using **Dear ImGui**, capable 
 
 
 ![Preview](images/image1.png)
-
-If you are anoyed by the blinking, you can uncheck the checkbox in the menu.
+- If you are anoyed by the blinking, you can uncheck the checkbox in the menu.
