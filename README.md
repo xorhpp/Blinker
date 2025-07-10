@@ -42,4 +42,5 @@ This project is a **DirectX 11 External Overlay** using **Dear ImGui**, capable 
 
 - Press `F2` — Toggle menu
 - Press `F3` — Exit application
----
+
+![Preview](images/image1.png)
