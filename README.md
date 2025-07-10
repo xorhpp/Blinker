@@ -8,8 +8,8 @@
                    (_______/  \_______)(__\_|_)\___|\____\)(__|  \__)\_______)|__|  \___) 
                                                                                                           
                                                                                                       
-                                               D3D11 ImGui External (x86 / x64)
-                                               EXE / DLL ImGui External Menu
+                                      D3D11 ImGui External (x86 / x64)
+                                      EXE / DLL ImGui External Menu
 ```
 Thanks to [adamhlt/ImGui-Standalone](https://github.com/adamhlt/ImGui-Standalone) for the foundation.
 
