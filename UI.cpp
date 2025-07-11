@@ -200,23 +200,21 @@ void UI::Render()
         {
             if (Drawing::bShowMenu) Drawing::DrawMenu();
 
+            // Thx ChatGpt, before idk how to do this but now i learn how how to do this :)
             if (Drawing::bActiveOverlay)
             {
-				// Thx ChatGpt idk how to do this but nom i learn how how to do this
                 static auto overlay_start_time = std::chrono::steady_clock::now();
 
                 auto now = std::chrono::steady_clock::now();
                 float elapsed_ms = std::chrono::duration<float, std::milli>(now - overlay_start_time).count();
 
                 float cycle_duration = 6000.0f;
-                float blink_duration = 200.0f;
+                float blink_duration = 150.0f;
       
                 float time_in_cycle = fmod(elapsed_ms, cycle_duration);
 
                 if (time_in_cycle < blink_duration)
-                {
                     Drawing::DrawOverlay();
-                }
             }
         }
         ImGui::EndFrame();
